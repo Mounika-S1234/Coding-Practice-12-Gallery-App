@@ -1,0 +1,31 @@
+/* Write your code here. */
+.gallery-container {
+  text-align: center;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.gallery-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.gallery-subheading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.active-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.thumbnails-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
